@@ -4,7 +4,12 @@
 
 #include <iostream>
 #include <string>
+#include <cstring>
+#include <stdlib.h> //required for atoi()
+#include <limits> //required for numeric_limits
+#include <math.h> //required for pow()
 #include <iomanip>
+#include "windows.h"
 
 using namespace std;
 
@@ -30,7 +35,7 @@ bool askToContinue(){
 			cin.ignore(numeric_limits<int>::max(), '\n');
 			
 			//clear the screen
-			system("CLS");
+			ClearScreen();
 			
 			return true;
 		}
