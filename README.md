@@ -1,8 +1,6 @@
 # SimpleVLSM
 This program will divide an IP address space into a hierarchy of subnets of different sizes
 
-WARNING:
+NOTE:
 
-This will not compile on a *nix system unless the ClearScreen() function is commented out.  It is line 38 under VLSMfunctions.cpp
-
-
+I coded this program on Windows using Visual Studio 2013.
